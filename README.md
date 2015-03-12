@@ -12,4 +12,7 @@ For a quick trial follow these steps:
 
 3. Place the files from the repository in the respective paths of your CI setup
 
-4. Access the search feature at <site_base_url>/search
+4. Include the following lines 
+```$route['search/searchbar']='search/searchbar'; $route['search']='search/index';``` in your routes.php file below the default_controller route
+
+5. Access the search feature at <site_base_url>/search
