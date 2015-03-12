@@ -15,4 +15,4 @@ For a quick trial follow these steps:
 4. Include the following lines 
 ```$route['search/searchbar']='search/searchbar'; $route['search']='search/index';``` in your routes.php file below the default_controller route
 
-5. Access the search feature at <site_base_url>/search
+5. Access the search feature at \<site_base_url\>/search
